@@ -1,4 +1,4 @@
-defmodule Layout.Key do
+defmodule KeyboardLayout.Key do
   @moduledoc """
   Describes a physical key and its location.
   """

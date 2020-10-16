@@ -1,7 +1,7 @@
-defmodule LayoutKeyTest do
+defmodule KeyboardLayout.KeyTest do
   use ExUnit.Case
 
-  alias Layout.Key
+  alias KeyboardLayout.Key
 
   test "new/3 creates a %Key{} struct with default :width, :height, and :led" do
     assert Key.new(:a, 0, 0) == %Key{id: :a, x: 0, y: 0, width: 1, height: 1, led: nil}

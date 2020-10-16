@@ -1,4 +1,4 @@
-defmodule Layout.LED do
+defmodule KeyboardLayout.LED do
   @moduledoc """
   Describes a physical LED location.
   """

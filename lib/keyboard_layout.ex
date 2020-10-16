@@ -1,4 +1,4 @@
-defmodule Layout do
+defmodule KeyboardLayout do
   @moduledoc """
   Describes a keyboard layout.
   """
@@ -52,7 +52,7 @@ defmodule Layout do
   @spec load_from_config() :: t
   def load_from_config do
     env_layout =
-      case Application.get_env(:xebow, :layout) do
+      case Application.get_env(:keyboard_layout, :layout) do
         nil -> raise "A layout must be defined for the application to function"
         layout -> layout
       end
