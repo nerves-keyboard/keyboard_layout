@@ -1,20 +1,27 @@
 # KeyboardLayout
 
-**TODO: Add description**
+[![CI Status](https://github.com/nerves-keyboard/keyboard_layout/workflows/CI/badge.svg)](https://github.com/nerves-keyboard/keyboard_layout/actions)
+[![codecov](https://codecov.io/gh/nerves-keyboard/keyboard_layout/branch/master/graph/badge.svg)](https://codecov.io/gh/nerves-keyboard/keyboard_layout)
+
+KeyboardLayout is a Nerves Keyboard library for defining a layout of keys and
+LEDs.
+
+See [`config/config.exs`](./config/config.exs) for an example of how to define
+a layout.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `keyboard_layout` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `keyboard_layout` to your list of
+dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:keyboard_layout, "~> 0.1.0"}
+    {:keyboard_layout, github: "nerves-keyboard/keyboard_layout"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/keyboard_layout](https://hexdocs.pm/keyboard_layout).
+## License
+
+This library is licensed under the [MIT license](./LICENSE.md)
