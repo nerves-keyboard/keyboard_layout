@@ -2,7 +2,7 @@ defmodule KeyboardLayout.MixProject do
   use Mix.Project
 
   @version "0.1.0"
-  @source_url "https://github.com/nerves-keybaord/keyboard_layout"
+  @source_url "https://github.com/nerves-keyboard/keyboard_layout"
 
   def project do
     [
