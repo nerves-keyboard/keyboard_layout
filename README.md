@@ -1,7 +1,7 @@
 # KeyboardLayout
 
 [![CI Status](https://github.com/nerves-keyboard/keyboard_layout/workflows/CI/badge.svg)](https://github.com/nerves-keyboard/keyboard_layout/actions)
-[![codecov](https://codecov.io/gh/nerves-keyboard/keyboard_layout/branch/master/graph/badge.svg)](https://codecov.io/gh/nerves-keyboard/keyboard_layout)
+[![codecov](https://codecov.io/gh/nerves-keyboard/keyboard_layout/branch/main/graph/badge.svg)](https://codecov.io/gh/nerves-keyboard/keyboard_layout)
 [![Hex.pm Version](https://img.shields.io/hexpm/v/keyboard_layout.svg?style=flat)](https://hex.pm/packages/keyboard_layout)
 [![License](https://img.shields.io/hexpm/l/keyboard_layout.svg)](LICENSE.md)
 
